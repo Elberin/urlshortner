@@ -1,0 +1,49 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Java
+*.class
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Spring Boot
+spring-boot-devtools.properties
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Test / coverage reports
+coverage/
+jacoco/
+*.exec
